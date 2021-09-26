@@ -1,1 +1,1 @@
-# fun-with-trinagles
+# fun-with-triangles
