@@ -2,8 +2,10 @@ const inputs = document.querySelectorAll('.area-input');
 const areaBtn = document.querySelector('#area-btn');
 const areaOutput = document.querySelector('#area-output');
 function multiplyBaseAndHeight(base, height) {
-	const multipliedOutput = base * height;
-	return multipliedOutput;
+
+		const multipliedOutput = base * height;
+		return multipliedOutput;
+	
 }
 
 function calculateArea() {

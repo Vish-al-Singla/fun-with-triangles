@@ -14,8 +14,16 @@ function isTriangle() {
 		console.log('Yayy, the angles form a triangle');
 		isTriangleOutput.innerText = 'Yayy, the angles form a triangle';
 	} else {
-		console.log('Oh Oh!, the angles do not form a triangle');
-		isTriangleOutput.innerText = 'Oh Oh!, the angles do not form a triangle';
+		if(calculateSumOfAngles()<0)
+		{
+			console.log("Enter Positive Values");
+			isTriangleOutput.innerText = 'Enter Positive Values';
+		}
+		else{
+			console.log('Oh Oh!, the angles do not form a triangle');
+			isTriangleOutput.innerText = 'Oh Oh!, the angles do not form a triangle';
+		}
+		
 	}
 }
 isTriangleBtn.addEventListener('click', isTriangle);
